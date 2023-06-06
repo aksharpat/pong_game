@@ -59,6 +59,15 @@ body {
     color: var(--foreground-color);
 }
 
+.label {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 3vh;
+    color: var(--foreground-color);
+    opacity: .3;
+}
+
 .score>* {
     flex-grow: 1;
     flex-basis: 0;
