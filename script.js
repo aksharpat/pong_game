@@ -38,8 +38,8 @@ function handleLose() {
     if (rect.right >= window.innerWidth) {
         playerScoreElem.textContent = parseInt(playerScoreElem.textContent) + 1
         if (playerScoreElem.textContent == 20) {
-            playerScoreElem.textContent = 0
             computerScoreElem.textContent = 0
+            playerScoreElem.textContent = 0
         }
     } else {
         computerScoreElem.textContent = parseInt(computerScoreElem.textContent) + 1
